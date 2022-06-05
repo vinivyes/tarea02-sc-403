@@ -1,0 +1,75 @@
+
+section {
+    margin-top: 10vh;
+    padding: 0px 24px;
+    
+    width: calc(100% - 48px);       /* 100% Largura - Padding interno */
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    flex-wrap: nowrap;
+    
+    justify-content: center;
+}
+
+section > h2, section > h3, section > form > h5 {
+    width: 100%;
+    
+    text-align: center;
+}
+
+section > video {
+    width: 100%;
+}
+
+
+section > form {
+    width: 100%;
+}
+
+section > form > label{
+    display: flex;
+    
+    justify-content: center;
+    
+    padding: 12px 0;
+}
+
+section > .provedores {
+    display: flex;
+    
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+    
+    padding: 12px 48px;
+}
+
+section > .provedores > img{
+    margin: auto 48px;
+    
+    width: 150px;
+    
+    height: auto;
+}
+
+.servicios {
+    display: flex;
+    
+    justify-content: center;
+    
+    width: 100%;
+}
+
+img.servicio{
+    width: auto;
+    
+    max-height: 400px;
+}
+
+
+input {
+    margin: 2px 6px;
+}

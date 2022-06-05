@@ -1,0 +1,83 @@
+#header{
+    background-color: orangered;
+    
+    height: 10%;
+    width: 100%;
+    
+    position: fixed;
+    
+    top:0;
+    left: 0;
+    
+
+    box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f; /* Elevación del Header */    
+    
+    z-index: 10;
+}
+
+#header > * {
+    margin: 0;
+    
+    box-sizing: border-box;
+    
+    font-family: sans-serif;
+    
+}
+
+a {
+    color: white;
+    
+    text-decoration: none;
+}
+
+#nav {
+    display: flex;
+    
+    justify-content: space-between;
+    
+    max-width: 100%;
+    
+    margin: 0 24px;
+    
+    height: 100%
+}
+
+#nav > .logo {
+       
+    font-size: max(2.5vw, 35px);     /* Responsivo Horizontal */
+    font-weight: bold;
+    
+    line-height: 10vh;               /* Centro Vertical */
+}
+
+#nav > .menu {
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+    list-style: none;
+    
+    align-items: center;
+    
+    max-width: 55%;
+}
+
+#nav > .menu > .menu-item {
+    font-size: 18px;
+    font-weight: lighter;
+        
+    margin: 0 10px;
+    
+    line-height: calc(5vh - 1em);  /* Mitad del Header */
+    
+    color: #fff;
+        
+    transition-duration: 0.15s;
+}
+
+#nav > .menu > .menu-item:hover {
+    
+    font-size: 20px;
+    
+    border-bottom: 1px solid #fff;
+}
